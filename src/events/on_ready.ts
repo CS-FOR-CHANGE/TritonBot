@@ -1,6 +1,6 @@
-import { Client } from "discord.js"
+import type { Client } from "discord.js"
 import { commandsList } from "../bot"
-import { exit } from "process"
+import { exit } from "node:process"
 
 export default (client: Client): void => {
     client.once("ready", async () => {

@@ -1,5 +1,5 @@
 import { Embeds } from "../utils/embeds";
-import { Command } from "../interface/command";
+import type { Command } from "./command";
 export const AboutCommand: Command = {
     name: "about",
     description: "Provides information about the bot",

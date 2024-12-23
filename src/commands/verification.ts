@@ -1,17 +1,17 @@
 import {
     ActionRowBuilder,
-    ModalActionRowComponentBuilder
+    type ModalActionRowComponentBuilder
 } from "@discordjs/builders"
 import {
-    ChatInputCommandInteraction,
+    type ChatInputCommandInteraction,
     ModalBuilder,
-    ModalSubmitInteraction,
+    type ModalSubmitInteraction,
     TextInputBuilder,
     TextInputStyle
 } from "discord.js"
 import moment from "moment"
 import { verificationChannel, verifiedRole } from "../config.json"
-import { Command } from "../interface/command"
+import type { Command } from "./command"
 import { Embeds } from "../utils/embeds"
 import { verifyStudent } from "../utils/triton_verifier"
 

@@ -1,5 +1,5 @@
 import { commandsList } from "../bot"
-import { ChatInputCommandInteraction, Client, Interaction } from "discord.js"
+import type { ChatInputCommandInteraction, Client, Interaction } from "discord.js"
 import { handleModalSubmit } from "../commands/verification"
 import { Embeds } from "../utils/embeds"
 
